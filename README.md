@@ -2,6 +2,11 @@
 
 I made this repository for making a bot easily or simply starting with it.
 
+It Haves:
+
+- Command Handler
+- Slash Commands
+
 ## Resources
 
 For making this bot we are gonna use <a href="https://nodejs.org/en/">Node.js</a>
