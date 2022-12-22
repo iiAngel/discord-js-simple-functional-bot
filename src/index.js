@@ -50,7 +50,7 @@ const rest = new REST({ version: '10' }).setToken(botToken);
 	} catch (error) {
 		console.error(error);
 	}
-})();
+});
 
 // On Interaction
 client.on("interactionCreate", async interaction => {
