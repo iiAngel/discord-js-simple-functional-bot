@@ -37,9 +37,7 @@ It's gonna throw a prompt that looks something like this:
 
 <img src="img/reset_token2.png">
 
-Just click yes and copy your token
-
-<img src="img/reset_token3.png">
+We are gonna be back into it later
 
 ## URL Generator
 
@@ -70,3 +68,41 @@ Paste it in your browser and follow this simple steps
 3. Now your bot is in your server!
 <img src="img/bot_arrived.png">
 
+## Running your bot
+
+Clone this repository with <a href="https://git-scm.com/downloads">GIT Bash</a> following the next command: `$ git clone https://github.com/iiAngel/discord-js-simple-functional-bot.git`
+
+<img src="img/gitbash.png">
+
+then open your favorite IDE in my case im gonna use Visual Studio Code
+
+Open the folder of the cloned repository
+
+<img src="img/open_folder.png">
+
+Open your Terminal and run the following command: `npm init`
+Set the package details for your bot
+
+Now install packages
+
+```bash
+# Install 'discord.js'
+$ npm install discord.js
+# Install 'dotenv'
+$ npm install dotenv
+```
+
+go to `src/.env` and paste your bot token
+
+<img src="img/reset_token3.png">
+
+get back to OAuth2 tab and copy your Client ID
+
+<img src="img/client_id.png"><br>
+
+<img src="img/paste_token_client.png">
+
+Now you have it!
+Test your bot with `$ node .`
+
+You can check `src/commands/ping.js` for an example to make your commands! 
