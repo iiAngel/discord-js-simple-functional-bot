@@ -97,7 +97,9 @@ $ npm install discord.js
 $ npm install dotenv
 ```
 
-go to `src/.env` and paste your bot token
+Make sure that `node_modules` is in `.\src\` or `.\src\` is extracted
+
+go to `.env` and paste your bot token
 
 <img src="img/reset_token3.png">
 
